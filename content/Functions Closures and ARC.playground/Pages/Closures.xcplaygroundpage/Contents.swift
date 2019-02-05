@@ -66,18 +66,6 @@ let sam = Guest(name: "Sam", age: 17)
 
 blockOfCodeToPrintGuestInfo(sam)
 
-
-
-
-
-
-
-
-
-
-
-
-
 /*:
  If you want to compare your answer, look here:
  ```
@@ -139,7 +127,7 @@ blockOfCode2("This is a string", 99)
 
 //two params to execute this closure and this closure returns an int
 let returnValueFromClosure = blockOfCode3(9, 9)
-
+print(returnValueFromClosure)
 
 //test if userInput contains only numbers
 let userInput = "Twenty"
