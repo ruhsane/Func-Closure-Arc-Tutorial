@@ -93,6 +93,11 @@ add(newGuest: eric) { print("There are \($0 - 1) guests ahead of me") }
 //copy and paste your sorting closure here and rewrite it to be a single line of code
 
 
+//sort these numbers
+let numbersToSort = [2, 4, 4, 2, 1, 0]
+let sortedNum = numbersToSort.sorted { $0 <= $1 }
+print(sortedNum)
+
 /*:
  Great work on becoming a master of closure optimizations! While these are not always needed, they can significantly clean up your code, and make it much easier to read and use in the future.
 
